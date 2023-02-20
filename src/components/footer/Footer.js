@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {FaFacebook, FaInstagram, FaTwitter, FaPinterest} from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaTwitter, FaYoutube} from 'react-icons/fa'
 
 import './Footer.css'
 
@@ -8,10 +8,10 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='social'>
-                <FaFacebook className='icon' />
-                <FaInstagram className='icon' />
-                <FaTwitter className='icon' />
-                <FaPinterest className='icon' />
+               <a href="https://www.facebook.com/shivilatechnologies"><FaFacebook className='icon' /></a>
+              <a href="https://www.instagram.com/shivilatechnologies/"><FaInstagram className='icon' /></a>
+             <a href="https://twitter.com/ShivilaIndia">   <FaTwitter className='icon' /></a>
+              <a href="https://www.youtube.com/channel/UCyPZKDK2nabtQFNr7YnYMjA">  <FaYoutube className='icon' /></a>
             </div>
             <div className='container'>
                 <div className='col'>
